@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Tim Sepak Bola</title>
+  <link rel="stylesheet" href="my_contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">⚽</div>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#" class="active">Tim Sepak Bola</a>
+        </nav>
+      </div>
+      <button class="contact-btn">Kontak</button>
+    </div>
+  </header>
+
+  <!-- FORM -->
+  <section class="add-project container">
+    <h1 class="title">TAMBAH TIM SEPAK BOLA</h1>
+
+    <form class="project-form">
+      <label>Nama Tim
+        <input type="text" placeholder="Masukkan nama tim..." />
+      </label>
+
+      <div class="date-row">
+        <label>Tahun Berdiri
+          <input type="date" />
+        </label>
+        <label>Tahun Terakhir
+          <input type="date" />
+        </label>
+      </div>
+
+      <label>Deskripsi
+        <textarea rows="5" placeholder="Tuliskan deskripsi tim..."></textarea>
+      </label>
+
+      <div class="technologies">
+        <p>Kompetisi</p>
+        <div class="tech-grid">
+          <label class="checkbox"><input type="checkbox">Liga 1</label>
+          <label class="checkbox"><input type="checkbox">Liga 2</label>
+          <label class="checkbox"><input type="checkbox">Piala Dunia</label>
+          <label class="checkbox"><input type="checkbox">Liga Champions</label>
+        </div>
+      </div>
+
+      <label class="upload">Logo Tim
+        <div class="file-wrap">
+          <input type="file" />
+          <span class="paperclip">📎</span>
+        </div>
+      </label>
+
+      <div class="submit-wrap">
+        <button class="btn btn-primary">Simpan</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- CARD LIST -->
+  <section class="projects container">
+    <h2 class="title">TIM SEPAK BOLA SAYA</h2>
+    <div class="cards">
+
+      <article class="card">
+        <div class="card-img" style="background-image: url('persija.jpg');"></div>
+        <div class="card-body">
+          <h3> <a href="my_project.html">PERSIJA JAKARTA</a></h3>
+          <a href="my_project.html"></a>
+          <p class="meta">Berdiri : 1928</p>
+          <p class="desc">Persija Jakarta adalah klub sepak bola profesional dari Jakarta yang didirikan pada 28 November 1928, dikenal sebagai Macan Kemayoran, dan memiliki basis suporter The Jakmania.</p>
+          <div class="icons"><span>🏆</span><span>⚽</span><span>🌍</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline">edit</button>
+            <button class="btn btn-outline danger">hapus</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img" style="background-image: url('persib.jpg');"></div>
+        <div class="card-body">
+          <h3>PERSIB BANDUNG</a></h3>
+          <p class="meta">Berdiri : 1919</p>
+          <p class="desc">Persib Bandung adalah klub sepak bola profesional Indonesia dari Bandung, Jawa Barat, yang didirikan pada 14 Maret 1933 sebagai hasil fusi. Dikenal dengan julukan Maung Bandung dan Pangeran Biru, klub ini memiliki basis penggemar yang besar, yaitu Bobotoh.</p>
+          <div class="icons"><span>🏆</span><span>⚽</span><span>🔥</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline">edit</button>
+            <button class="btn btn-outline danger">hapus</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 - Sepak Bola</div>
+  </footer>
+
+</body>
+</html>
