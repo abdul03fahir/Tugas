@@ -73,7 +73,7 @@ showPopup("Data berhasil disimpan ✅");
   // Reset form
   form.reset();
 });
-
+// unutk lopping
 function renderTeams() {
   cardsContainer.innerHTML = "";
 
